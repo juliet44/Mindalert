@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+     android:background="#ff84ff"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Rsign" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Once you get treatment, it's important to pay attention to your feelings to help you catch possible signs of a relapse. &#xA;"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="The following signs are common to many patients dealing with relapsed deprtession:&#xA;1.sadness that makes you feel hopeless, teary, or 'empty' every day for more than 2 weeks and it gets in the way of your daily life.&#xA;2.Withdrawal of oneself from others and less conversing with friends and family members.&#xA;3.trouble falling or staying asleep could be a warning sign.&#xA;4.Irritability and anger which makes it hard to handle everyday stress.&#xA;5. Activities you used to enjoy may now feel like a burden.eg.Sex, Fun, or Friends.&#xA;6.Old feelings of self-loathing and guilt may creep back in;focus on failures.&#xA;7. Back pain even though you haven’t strained your back,chronic headaches and stomachaches.Unexplained chest pain or achy legs and arms.&#xA;8.Sudden Weight Gain or Loss:pay attention to strong changes in your appetite.&#xA;9.Fatigue:makes you feel weak and tired all day.&#xA;10. Hard to concentrate,have trouble remembering things and  hard to concentrate? Have trouble remembering things.&#xA;11.Suicidal ThoughtsThis is a serious sign. It could mean you have severe depression." />
+
+    
+
+</RelativeLayout>

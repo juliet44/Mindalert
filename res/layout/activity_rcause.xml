@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#ff84ff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Rcause" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text=" Even when your symptoms are under control, you can potentially slide back into despair. However, knowing what might trigger a downward spiral can help you stop one from happening."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="24dp"
+        android:text="1.Quitting treatment once you begin feeling better.&#xA;2.Death of a loved one.&#xA;3.Divorse.&#xA;4.An empty nest eg when a child/partner leaves for work/school in a distance place.&#xA;5.Traumatic event eg terrorist Attack.&#xA;6.Hormonal changes especially in females eg pregnancy,puberty.&#xA;7.Addictive behaviours eg gambling can bring anziety.&#xA;"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

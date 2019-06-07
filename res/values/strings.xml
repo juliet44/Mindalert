@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MindAlert</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_depression">Depression</string>
+    <string name="title_activity_definition">Definition</string>
+    <string name="title_activity_types">Types</string>
+    <string name="title_activity_childhood">Childhood</string>
+    <string name="title_activity_teenage">Teenage</string>
+    <string name="title_activity_myfamily">Myfamily</string>
+    <string name="title_activity_the_test">The_test</string>
+    <string name="title_activity_tnsign">Tnsign</string>
+    <string name="title_activity_active_steps">Active_steps</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_meditation">Meditation</string>
+    <string name="title_activity_spiritually">Spiritually</string>
+    <string name="title_activity_naturally">Naturally</string>
+    <string name="title_activity_relapse">Relapse</string>
+    <string name="title_activity_rcause">Rcause</string>
+    <string name="title_activity_rsign">Rsign</string>
+    <string name="title_activity_rrecovery">Rrecovery</string>
+    <string name="title_activity_men">Men</string>
+    <string name="title_activity_mcause">Causes of depression in men</string>
+    <string name="title_activity_msign">Signs of Depression in men.</string>
+    <string name="title_activity_women">Women</string>
+    <string name="title_activity_wcause">causes of women depression</string>
+    <string name="title_activity_wsign">signs of women depression</string>
+    <string name="title_activity_difference">The difference</string>
+    <string name="title_activity_coping">coping with relapse</string>
+    <string name="title_activity_medication">Medication</string>
+    <string name="title_activity_logmain">Logmain</string>
+    <string name="title_activity_helpline">MindAlert</string>
+
+</resources>

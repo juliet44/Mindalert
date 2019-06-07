@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon2" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="spiritual therapy"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="Its counselling that attempts to treat a person's soul,mind and body by accessing an individual belief system.&#xA;It helps to identify areas of conflict and possible mental health concerns that may arise in someone's life.&#xA;People who believe in a guiding higher power may find spiritual therapy of help.&#xA;This therapy involves communing with nature,meditation,music and other non-traditional therapeutic practices which are all employed to connect body and mind with the souland explore deepest part of oneself.&#xA;"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

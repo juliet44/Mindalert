@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mindalert"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mindalert.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Depression"
+            android:label="@string/title_activity_depression" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Definition"
+            android:label="@string/title_activity_definition" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Types"
+            android:label="@string/title_activity_types" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Childhood"
+            android:label="@string/title_activity_childhood" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Teenage"
+            android:label="@string/title_activity_teenage" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Myfamily"
+            android:label="@string/title_activity_myfamily" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.The_test"
+            android:label="@string/title_activity_the_test" >
+        </activity>
+        <activity android:name="com.example.mindalert.My_family" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Tnsign"
+            android:label="@string/title_activity_tnsign" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Active_steps"
+            android:label="@string/title_activity_active_steps" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Meditation"
+            android:label="@string/title_activity_meditation" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Spiritually"
+            android:label="@string/title_activity_spiritually" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Naturally"
+            android:label="@string/title_activity_naturally" >
+        </activity>
+        <activity android:name="com.example.mindalert.Connected" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Relapse"
+            android:label="@string/title_activity_relapse" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Rcause"
+            android:label="@string/title_activity_rcause" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Rsign"
+            android:label="@string/title_activity_rsign" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Rrecovery"
+            android:label="@string/title_activity_rrecovery" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Men"
+            android:label="@string/title_activity_men" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Mcause"
+            android:label="@string/title_activity_mcause" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Msign"
+            android:label="@string/title_activity_msign" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Women"
+            android:label="@string/title_activity_women" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Wcause"
+            android:label="@string/title_activity_wcause" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Wsign"
+            android:label="@string/title_activity_wsign" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Difference"
+            android:label="@string/title_activity_difference" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Coping"
+            android:label="@string/title_activity_coping" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Medication"
+            android:label="@string/title_activity_medication" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Logmain"
+            android:label="@string/title_activity_logmain" >
+        </activity>
+        <activity
+            android:name="com.example.mindalert.Helpline"
+            android:label="@string/title_activity_helpline" >
+        </activity>
+    </application>
+
+</manifest>

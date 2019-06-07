@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mine"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Difference" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="The difference in male and female depression;&#xA;->Depression in women occur earlier,last longer,more likely to recur,be associated with a stressful life and more sensitive seaonal changes.&#xA;->women many times experience guilty feelings and attempt suicide, although they actually commit less often than men.&#xA;->In women depression is associated with emotional disorder eg. anxiety,panic,phobic symptoms etc "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

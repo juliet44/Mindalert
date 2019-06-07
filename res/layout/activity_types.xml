@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#ff84ff"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Types" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="MAJOR DEPRESSION:Severe symptoms that interfere with the ability to work, sleep, study, eat, and enjoy life.&#xA;PERSISTENT DEPRESSIVE DISORDER:A depressed mood that lasts for at least 2 years.&#xA;PSYCHOTIC DEPRESSION:occurs when a person has severe depression plus some form of psychosis, such as having disturbing false beliefs and hallucinations.&#xA;SEASONAL AFFECTIVE DISORDER(SAD):characterized by the onset of depression during the winter months, when there is less natural sunlight.&#xA;BIPOLAR DISORDER is different from depression. The reason it is included in this list is because someone with bipolar disorder experiences episodes of extreme low moods (depression).
+"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="people in depression tend to isolate themselves,which makes it difficult for them to get help.&#xA;
+Social support is plays great role in recovery .This means you have to stay connected.Some of the ways are:&#xA;
+1.Talk to people who make you feel safe and cared for.&#xA;
+
+2.keep up with social activities even if you don’t feel like it for example games.&#xA;
+
+3.Keep in touch with people as it helps feel less depressed.&#xA;
+
+4.Help someone else in similar condition by volunteering .&#xA;
+
+5.Pets also help to ease the feeling of loneliness though not human.&#xA;
+"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

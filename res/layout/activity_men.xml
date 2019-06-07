@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff84ff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Men" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="The male gender is believed to must be tough,self-reliant,able to manage pain and solve their problems."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dep" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/imageView1"
+        android:text="Depression in men is risky as they do not open up their problems for help." />
+
+    <Button
+        android:id="@+id/btnmcause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:textColor="#ffffff"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+          android:background="#000000"
+        android:text="CAUSES OF MALE DEPRESSION" />
+
+    <Button
+        android:id="@+id/btnmsign"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnmcause"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/btnmcause"
+        android:layout_marginTop="15dp"
+        android:background="#000000"
+        android:text="SIGNS OF MALE DEPRESSION" />
+
+</RelativeLayout>
